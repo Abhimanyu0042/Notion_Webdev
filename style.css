@@ -205,10 +205,14 @@ footer{
     }
     footer{
         margin-top: 5rem;
+        margin-bottom: 2rem;
     }
 
     .text-footer{
         font-size: medium;
+    }
+    .buttons2{
+        gap:15px;
     }
 
     .footer-platforms{
