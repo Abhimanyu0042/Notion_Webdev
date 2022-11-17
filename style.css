@@ -10,7 +10,7 @@ body{
     flex-wrap: nowrap;
     width: 100%;
     justify-content: center;
-    height: 100vh;
+    height:860px;
 }
 .container{
     display: flex;
@@ -262,7 +262,7 @@ footer{
     }
 
     .bold-text{
-        font-size: 3.5rem;
+        font-size: 3.4rem;
         padding-bottom: .5rem;
     }
     .toggle-icon{
