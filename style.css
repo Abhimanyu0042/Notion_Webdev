@@ -10,7 +10,7 @@ body{
     flex-wrap: nowrap;
     width: 100%;
     justify-content: center;
-    height:860px;
+    height:840px;
 }
 .container{
     display: flex;
@@ -243,8 +243,8 @@ footer{
         display: none;
     }
     footer{
-        margin-top: 3rem;
-        margin-bottom: 2rem;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
     }
 
     .text-footer{
