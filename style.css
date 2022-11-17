@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  trebuchet ms, sans-serif;
+}
+html{
+    background-color: black;
+}
+
+body{
+    margin-top:3%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    margin-bottom: 3%;
+}
+.container{
+    display: flex;
+    width: 75%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 88vh;
+
+}
+
+ul,li{
+    list-style: none;
+}
+
+.navigation{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10%;
+    padding: 1.5rem 0rem;
+    justify-content: space-between;
+}
+.logo img{
+    width: 40px;
+
+}
+.logo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding-left: 2rem;
+}
+
+.nav-content ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color: rgb(145, 145, 145);
+    font-size:1rem;
+    gap: 2rem;    
+}
+.nav-content ul>li{
+    cursor: pointer;
+}
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap:15px;
+}
+button{
+    border-radius: 25px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    cursor: pointer;
+    align-items: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.buttons p{
+    margin-left: 0.8rem;
+}
+
+#btn_chrome{
+    border: 1px solid rgb(166, 166, 166);
+    background-color: white;
+    color: rgb(148, 148, 148);
+}
+#btn_mac{
+    background-color: #2563EB;
+    color: white;
+    border: none;
+}
+section{
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.main-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+
+.top_desc{
+    text-align: center;
+    color: rgb(98, 98, 98);
+    font-size: large;
+    position: relative;
+}
+.bold-text{
+    font-size: 4rem;
+    font-weight: bold;
+    color: #0F172A;
+    padding-bottom: 1rem;
+}
+.bold-text span{
+    color: #2563EB; 
+}
+.notion-desc{
+    text-align: center;
+    color: rgb(98, 98, 98);
+}
+
+.buttons2{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-top: 3rem;
+}
+.buttons2 p{
+    margin-left: 1rem;
+}
+
+#btn_chrome_main{
+    background-color: #0F172A;
+    color: white;
+    border: none;
+}
+
+#btn_mac_main{
+    background-color: white;
+    color: rgb(98, 98, 98);
+    border: 1px solid rgb(166, 166, 166);
+}
+#btn_mac_main i{
+    color: #2563EB;
+}
+
+footer{
+    display: flex ;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    color: #0F172A;
+}
+.text-footer{
+    text-align: center;
+    font-size: large;
+}
+.text-footer span{
+    padding-bottom: .2rem;
+    border-bottom: 1px dashed black;
+}
+.footer-platforms{
+    display: flex;
+    justify-content: center;
+    gap: 8%;
+    font-size: x-large;
+    padding: 2.5rem 0rem;
+    font-weight: bolder;
+}
+
+.footer-platforms i{
+    font-size: xx-large;
+    margin-right: .7rem;
+}
+.footer-platforms li{
+    display: flex;
+    cursor: pointer;
+}
