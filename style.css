@@ -34,6 +34,7 @@ ul,li{
     margin-top: 2rem;
     padding: 1rem 1rem;
     justify-content: space-between;
+    margin-bottom: 3rem;
 }
 .logo img{
     width: 40px;
@@ -109,6 +110,7 @@ section{
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 3rem;
     
 }
 
