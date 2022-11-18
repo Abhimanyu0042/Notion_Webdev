@@ -7,16 +7,17 @@
 
 body{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     width: 100%;
     justify-content: center;
-    height:840px;
+    height: 100vh;
 }
 .container{
     display: flex;
     width: 75%;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
     justify-content: space-between;
     height: 100%;
 
@@ -31,7 +32,7 @@ ul,li{
     flex-wrap: nowrap;
     gap: 10%;
     margin-top: 2rem;
-    padding: 1.5rem 1rem;
+    padding: 1rem 1rem;
     justify-content: space-between;
 }
 .logo img{
@@ -190,7 +191,7 @@ footer{
 .footer-platforms li{
     display: flex;
     cursor: pointer;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
 }
 @media screen and (max-width:816px) {
     .toggle-icon{
