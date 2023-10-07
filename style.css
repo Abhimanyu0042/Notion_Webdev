@@ -2,7 +2,10 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family:  trebuchet ms, sans-serif;
+    /* font-family:  trebuchet ms, sans-serif; */
+    font-family: Josefin Sans;
+    /* font-family: Ubuntu; */
+    /* font-family: bahnschrift; */
 }
 
 body{
@@ -10,6 +13,10 @@ body{
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
+    background-image: url(https://images.unsplash.com/photo-1520531158340-44015069e78e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1944&q=80);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     height: 100vh;
 }
 .container{
@@ -92,7 +99,7 @@ button{
     color: rgb(148, 148, 148);
 }
 #btn_mac{
-    background-color: #2563EB;
+    background-color: #0F172A;
     color: white;
     border: none;
 }
@@ -107,17 +114,32 @@ section{
 .main-content{
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 80%;
+    /* backdrop-filter: blur(5px);
+    padding-block: 100px;
+    border-radius: 30px; */
     flex-wrap: wrap;
     justify-content: center;
     margin-bottom: 3rem;
     
 }
 
+.query{
+    width: 70%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 30px;
+    padding: 15px 0px 15px 15px;
+    margin-top: 30px;
+    align-self: center;
+    outline: none;
+}
+
 .top_desc{
     text-align: center;
     color: rgb(98, 98, 98);
     font-size: large;
+    margin-bottom: 20px;
     position: relative;
 }
 .bold-text{
@@ -128,11 +150,11 @@ section{
     padding-bottom: 1rem;
 }
 .bold-text span{
-    color: #2563EB; 
+    color: rgb(158, 158, 158); 
 }
 .notion-desc{
     text-align: center;
-    color: rgb(98, 98, 98);
+    color: rgb(98,98,98);
 }
 
 .buttons2{
@@ -157,7 +179,7 @@ section{
     border: 1px solid rgb(166, 166, 166);
 }
 #btn_mac_main i{
-    color: #2563EB;
+    color: rgb(98, 98, 98);
 }
 
 footer{
@@ -166,7 +188,8 @@ footer{
     flex-wrap: wrap;
     width: 100%; 
     text-align: center;
-    color: #0F172A;
+    /* color: #0F172A; */
+    color: white;
 }
 .text-footer{
     text-align: center;
